@@ -30,7 +30,6 @@ Metode pentru adăugarea unei noi cărți și afișarea jurnalului.
 #define CYAN    "\033[36m"
 #define resetare system("CLS");
 
-
 int contor = 0;
 int cnt = 0;
 
@@ -70,7 +69,6 @@ void meniu() {
 	std::cout << "Optiunea dumneavoastra este : ";
 	std::cin >> contor;
 	std::cout << "\n\n";
-	
 }
 
 void creare_fisier() {
